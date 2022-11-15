@@ -2300,7 +2300,7 @@ function gotMessage(msg){
       var member = msg.mentions.users.first();
       if(!msg.author.bot){
         if (msg.attachments.size > 0) {
-            //msg.reply('<:nemfudendo:871534996291194920>');
+            //msg.reply();
         }
       }
     }
